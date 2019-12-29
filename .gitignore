@@ -1,0 +1,12 @@
+# Xcode
+## Build generated
+build/
+DerivedData/ 
+## Various settings
+*.pbxuser
+xcuserdata/
+
+// Replace [project] and [username] with your info
+// This is all one line, starting with git, ending with .xcuserstate
+git rm --cached SchoolhouseSkateboarder.xcodeproj/project.xcworkspace/xcuserdata/[username].xcuserdatad/UserInterfaceState.xcuserstate
+git commit -m "Removed file that shouldn't be tracked"
