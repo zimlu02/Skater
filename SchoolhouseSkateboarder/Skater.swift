@@ -12,7 +12,7 @@ class Skater: SKSpriteNode {
     
     var velocity = CGPoint.zero
     var minimumY: CGFloat = 0.0
-    var jumpSpeed: CGFloat = 30.0 // modified
+    var jumpSpeed: CGFloat = 29.0 // modified
     var isOnGround = true
     
     // setup physics body based on skater's texture
