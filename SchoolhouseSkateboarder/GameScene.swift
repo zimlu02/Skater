@@ -362,6 +362,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let isTippedOver = skater.zRotation > maxRotation || skater.zRotation < -maxRotation
         
         if isOffScreen || isTippedOver {
+            run(SKAction.playSoundFileNamed("hit.wav", waitForCompletion: false))
             gameOver()
         }
     }

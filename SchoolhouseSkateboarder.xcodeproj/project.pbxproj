@@ -19,8 +19,9 @@
 		0D225BF123B6610B007DE9AA /* menu.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D225BF023B6610A007DE9AA /* menu.wav */; };
 		0D4E7E5923AF1F6900883150 /* MenuLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E7E5823AF1F6900883150 /* MenuLayer.swift */; };
 		0D4E7E5B23AF89AB00883150 /* sparks.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0D4E7E5A23AF89AA00883150 /* sparks.sks */; };
-		0D4E7E5E23B0215000883150 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4E7E5C23B0214E00883150 /* jump.wav */; };
-		0D4E7E5F23B0215100883150 /* gem.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4E7E5D23B0214F00883150 /* gem.wav */; };
+		0D4F1ADA23BA222400E04F69 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4F1AD723BA222300E04F69 /* hit.wav */; };
+		0D4F1ADB23BA222400E04F69 /* gem.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4F1AD823BA222300E04F69 /* gem.wav */; };
+		0D4F1ADC23BA222400E04F69 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4F1AD923BA222400E04F69 /* jump.wav */; };
 		0D889D3A23A47B6E00F67C05 /* Skater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D889D3923A47B6E00F67C05 /* Skater.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +40,9 @@
 		0D225BF023B6610A007DE9AA /* menu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = menu.wav; sourceTree = "<group>"; };
 		0D4E7E5823AF1F6900883150 /* MenuLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLayer.swift; sourceTree = "<group>"; };
 		0D4E7E5A23AF89AA00883150 /* sparks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sparks.sks; sourceTree = "<group>"; };
-		0D4E7E5C23B0214E00883150 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
-		0D4E7E5D23B0214F00883150 /* gem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gem.wav; sourceTree = "<group>"; };
+		0D4F1AD723BA222300E04F69 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
+		0D4F1AD823BA222300E04F69 /* gem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gem.wav; sourceTree = "<group>"; };
+		0D4F1AD923BA222400E04F69 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
 		0D889D3923A47B6E00F67C05 /* Skater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,9 +85,10 @@
 				0D4E7E5823AF1F6900883150 /* MenuLayer.swift */,
 				0D0D392A23A3D4D60093C035 /* GameViewController.swift */,
 				0D0D392C23A3D4D60093C035 /* Main.storyboard */,
-				0D4E7E5D23B0214F00883150 /* gem.wav */,
+				0D4F1AD823BA222300E04F69 /* gem.wav */,
+				0D4F1AD723BA222300E04F69 /* hit.wav */,
+				0D4F1AD923BA222400E04F69 /* jump.wav */,
 				0D225BF023B6610A007DE9AA /* menu.wav */,
-				0D4E7E5C23B0214E00883150 /* jump.wav */,
 				0D225BEE23B660F8007DE9AA /* game.wav */,
 				0D0D392F23A3D4D60093C035 /* Assets.xcassets */,
 				0D0D393123A3D4D60093C035 /* LaunchScreen.storyboard */,
@@ -153,14 +156,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4F1ADC23BA222400E04F69 /* jump.wav in Resources */,
 				0D0D392E23A3D4D60093C035 /* Main.storyboard in Resources */,
 				0D4E7E5B23AF89AB00883150 /* sparks.sks in Resources */,
 				0D225BEF23B660F9007DE9AA /* game.wav in Resources */,
 				0D0D392523A3D4D60093C035 /* GameScene.sks in Resources */,
-				0D4E7E5E23B0215000883150 /* jump.wav in Resources */,
 				0D225BF123B6610B007DE9AA /* menu.wav in Resources */,
-				0D4E7E5F23B0215100883150 /* gem.wav in Resources */,
 				0D0D393023A3D4D60093C035 /* Assets.xcassets in Resources */,
+				0D4F1ADB23BA222400E04F69 /* gem.wav in Resources */,
+				0D4F1ADA23BA222400E04F69 /* hit.wav in Resources */,
 				0D0D393323A3D4D60093C035 /* LaunchScreen.storyboard in Resources */,
 				0D0D392723A3D4D60093C035 /* Actions.sks in Resources */,
 			);
